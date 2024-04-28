@@ -1,0 +1,44 @@
+.root{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+  
+}
+.logo{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: cursive;
+    padding: 20px;
+    color: orange;
+    text-decoration: none;
+    
+    /* background-color: blue; */
+  
+}
+.navlink{
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+   text-align: center;
+   margin-left: 20px;
+   padding: 10px;
+  
+}
+.navlink:hover{
+    color: orange;
+}
+nav a.active{
+    color: orange;
+    
+}

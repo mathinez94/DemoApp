@@ -1,0 +1,91 @@
+.research{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.header_details{
+    position: relative;
+}
+
+.research_hearder_text{
+    margin-top: 150px;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0006;
+    border-radius: 4px;
+    border-bottom: 3px solid aliceblue;
+    box-shadow: 0px 0px 10px;
+    padding: 5px;
+}
+
+.research_content{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+.researches{
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    border-bottom: 3px double #0006;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+.main_img{
+    flex: 1;
+    width: 100%;
+}
+.main_img img{
+    height: 300px;
+    width: 80%;
+}
+.main_text{
+    flex: 1;
+    text-align: left;
+    object-fit: contain;
+}
+.heading{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main_text p{
+    /* margin: 10px; */
+    font-size: 1.1em;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: #0006;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
