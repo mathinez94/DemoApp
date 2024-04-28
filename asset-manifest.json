@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/DemoApp/static/css/main.9a68fcd2.css",
+    "main.js": "/DemoApp/static/js/main.350ef33e.js",
+    "static/media/tzt.JPG": "/DemoApp/static/media/tzt.f2d51ab52cccbd169443.JPG",
+    "static/media/car.JPG": "/DemoApp/static/media/car.457b9a33037e08996b2d.JPG",
+    "static/media/office.JPG": "/DemoApp/static/media/office.587018c90491b86027bc.JPG",
+    "static/media/hoddie.JPG": "/DemoApp/static/media/hoddie.642d7e0fbbbb1c51b8f7.JPG",
+    "static/media/arsenal.JPG": "/DemoApp/static/media/arsenal.7068b3bc93da0f513de9.JPG",
+    "static/media/weather3.jpg": "/DemoApp/static/media/weather3.6a4a54c47cd44987befb.jpg",
+    "static/media/weather2.jpg": "/DemoApp/static/media/weather2.1a0b900de464390398c2.jpg",
+    "static/media/weather1.jpg": "/DemoApp/static/media/weather1.4f9b0b5a79cc2003ce6c.jpg",
+    "index.html": "/DemoApp/index.html",
+    "main.9a68fcd2.css.map": "/DemoApp/static/css/main.9a68fcd2.css.map",
+    "main.350ef33e.js.map": "/DemoApp/static/js/main.350ef33e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a68fcd2.css",
+    "static/js/main.350ef33e.js"
+  ]
+}
