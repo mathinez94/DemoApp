@@ -165,6 +165,8 @@
                 color: aliceblue;
                 background-color: #0006;
                 margin-top: 80px;
+                position: relative;
+                bottom: 0;
                 
             }
             .about h2{
