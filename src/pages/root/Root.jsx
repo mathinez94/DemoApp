@@ -11,10 +11,12 @@ export const Root = () => {
 
       <nav className="links">            
           <NavLink to='/' className='navlink'>Home</NavLink> 
-          <NavLink to='/stories' className='navlink'>Stories</NavLink>
-          <NavLink to='/interns' className='navlink'>Interns</NavLink>
           <NavLink to='/research' className='navlink'>Research</NavLink>
-          <NavLink to='/contact' className='navlink'>Contact</NavLink>        
+          <NavLink to='/Peoples' className='navlink'>Peoples</NavLink>
+          <NavLink to='/Publications' className='navlink'>Publications</NavLink> 
+          <NavLink to='/Teaching' className='navlink'>Teaching</NavLink> 
+          <NavLink to='/Opportunities' className='navlink'>Opportunities</NavLink>        
+          <NavLink to='/News' className='navlink'>News</NavLink>
       </nav>
     </div>
     

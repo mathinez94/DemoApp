@@ -14,12 +14,12 @@ const Research = () => {
       </div>
       <div className="research_content">
         <div className="researches">
-          <span className="heading">Hydroscopic Weather Scope</span>
           <div className="main">
             <div className="main_img">
               <img src={weather1} alt="weather1" />
             </div>
             <div className="main_text">
+              <span className="heading">Hydroscopic Weather Scope</span>
               <p>
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore laudantium minus architecto
                  minima fuga quod quisquam, ea repellat sunt at excepturi similique, odio iste laborum. Quo inventore,
@@ -36,12 +36,12 @@ const Research = () => {
         </div>
 
         <div className="researches">
-          <span className="heading">Ozone Sahilan Mantle</span>
           <div className="main">
             <div className="main_img">
               <img src={weather2} alt="weather2" />
             </div>
             <div className="main_text">
+              <span className="heading">Ozone Sahilan Mantle</span>
               <p>
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore laudantium minus architecto
                  minima fuga quod quisquam, ea repellat sunt at excepturi similique, odio iste laborum. Quo inventore,
@@ -58,12 +58,12 @@ const Research = () => {
         </div>
 
         <div className="researches">
-          <span className="heading"> Weather Stalic Earth View</span>
           <div className="main">
             <div className="main_img">
               <img src={weather3} alt="weather3" />
             </div>
             <div className="main_text">
+              <span className="heading"> Weather Stalic Earth View</span>
               <p>
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore laudantium minus architecto
                  minima fuga quod quisquam, ea repellat sunt at excepturi similique, odio iste laborum. Quo inventore,
@@ -79,12 +79,12 @@ const Research = () => {
           </div>
         </div>
         <div className="researches">
-          <span className="heading"> Chrobic Earth View</span>
           <div className="main">
             <div className="main_img">
               <img src={weather3} alt="weather3" />
             </div>
             <div className="main_text">
+              <span className="heading"> Chrobic Earth View</span>
               <p>
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore laudantium minus architecto
                  minima fuga quod quisquam, ea repellat sunt at excepturi similique, odio iste laborum. Quo inventore,

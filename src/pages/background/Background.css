@@ -1,0 +1,17 @@
+.header{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.header img{
+    position: relative;
+    width: 100%;
+}
+.header span{
+    position: absolute;
+    color: #000;
+}
+
