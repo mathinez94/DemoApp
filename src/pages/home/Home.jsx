@@ -21,15 +21,20 @@ const Home = () => {
         <img src={lightening} alt="founder imag" className='img'/>
       </div>
       <div className="content_text">
-        <h2>Founder's Biography</h2><br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero corporis praesentium explicabo 
-          maxime, magni animi error commodi veritatis temporibus! Provident?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero corporis praesentium explicabo 
-          maxime, magni animi error commodi veritatis temporibus! Provident?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div className='text-top'>
+          <h1>Emmanuel Ogwuche Audu</h1>
+          <h2>Assistant Professor</h2>
+          <h3>Climate and Weather Variability</h3>
+        </div><hr />
+        <div className='text-botton'>
+          <span>University of Nebraska</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ut commodi
+            voluptate numquam repellendus consectetur sit debitis voluptatem 
+            adipisci exercitationem
+          </p>
+          <Link to='mailto: auduemmanuel112@gmail.com' target='blank' className='Link'>auduemmanuel112@gmail.com</Link>
+        </div>
+        
       </div>
     </div>
     <div className="about">
