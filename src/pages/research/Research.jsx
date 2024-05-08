@@ -4,14 +4,17 @@ import './Research.css'
 import weather1 from '../../images/weather1.jpg'
 import weather2 from '../../images/weather2.jpg'
 import weather3 from '../../images/weather3.jpg'
+import cloudearthview from '../../images/earth view1.jpg'
 
 const Research = () => {
   return (
     <div className="research">
-      <div className="header_details">
-        {/* <Background /> */}
-        <h1 className='research_hearder_text'>Research Done</h1>
-      </div>
+       <div className="header">
+      <img src={cloudearthview} alt="grassy city view" />
+        <span className='image_text' >Research
+        </span>
+    </div>
+
       <div className="research_content">
         <div className="researches">
           <div className="main">

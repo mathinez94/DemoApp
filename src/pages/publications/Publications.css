@@ -1,0 +1,40 @@
+.publications{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    margin-top: 80px;
+}
+/* HEADER CONTENT */
+.header{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.header img{
+    position: relative;
+    width: 100%;
+}
+.header span{
+    position: absolute;
+    color: #f9f9f9;
+   
+}
+/* hEADER CONTENT */
+.publication-content{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+}
+.publication-content span{
+    font-size: 20px;
+    font-weight: 300;
+    color: orange;
+}
+.publication-content ul li{
+    margin: 10px 0px;
+}

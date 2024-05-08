@@ -4,19 +4,24 @@
     position: relative;
     font-family: sans-serif;
 }
-.header_details{
+/* HEADER CONTENT */
+.header{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.header img{
     position: relative;
+    width: 100%;
 }
-
-.research_hearder_text{
-    margin-top: 150px;
-    font-size: 80px;
-    color: #0006;
-    border-radius: 4px;
-    border-bottom: 3px solid aliceblue;
-    box-shadow: 0px 0px 10px;
-    padding: 5px;
+.header span{
+    position: absolute;
+    color: #f9f9f9;
 }
+/* hEADER CONTENT */
 
 .research_content{
     height: 100%;

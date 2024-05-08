@@ -12,7 +12,7 @@ export const Root = () => {
       <nav className="links">            
           <NavLink to='/' className='navlink'>Home</NavLink> 
           <NavLink to='/research' className='navlink'>Research</NavLink>
-          <NavLink to='/Peoples' className='navlink'>Peoples</NavLink>
+          <NavLink to='/Peoples' className='navlink'>People</NavLink>
           <NavLink to='/Publications' className='navlink'>Publications</NavLink> 
           <NavLink to='/Teaching' className='navlink'>Teaching</NavLink> 
           <NavLink to='/Opportunities' className='navlink'>Opportunities</NavLink>        

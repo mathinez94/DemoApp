@@ -1,0 +1,45 @@
+.teaching{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    margin-top: 80px;
+}
+.teaching-content{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* HEADER CONTENT */
+.header{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.header img{
+    position: relative;
+    width: 100%;
+}
+.header span{
+    position: absolute;
+    color: #f9f9f9;
+}
+/* hEADER CONTENT */
+
+.teaching-content span{
+    font-size: 20px;
+    font-weight: 300;
+    color: orange;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.teaching-content p{
+    margin: 10px 10px 5px 0px;
+}

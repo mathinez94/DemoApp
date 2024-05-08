@@ -1,9 +1,9 @@
 import React from 'react'
 import'./People.css';
 // import Background from '../header/Background';
-import earthview1 from '../../images/earth view1.jpeg'
+import earthview1 from '../../images/earth view1.jpg'
 import earthview2 from '../../images/earth view2.webp'
-import earthview3 from '../../images/earth view3.webp'
+import earthview3 from '../../images/earth view3.jpg'
 import cumulus from '../../images/cumulus.jpg'
 
 const People = () => {
