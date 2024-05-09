@@ -1,6 +1,5 @@
 .opportunities{
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
     margin-top: 100px;
     height: 80vh;
     display: flex;
@@ -8,3 +7,21 @@
     justify-content: center;
     align-items: center;
 }
+/* HEADER CONTENT */
+.header{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.header img{
+    position: relative;
+    width: 100%;
+}
+.header span{
+    position: absolute;
+    color: #f9f9f9;
+}
+/* hEADER CONTENT */

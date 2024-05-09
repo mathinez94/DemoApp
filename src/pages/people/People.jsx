@@ -6,13 +6,15 @@ import earthview2 from '../../images/earth view2.webp'
 import earthview3 from '../../images/earth view3.jpg'
 import cumulus from '../../images/cumulus.jpg'
 
+
 const People = () => {
   return (
     <div className="intern">
-      <div className="header_details">
-        {/* <Background /> */}
-        <h1 className='interns_hearder_text'>Our Interns</h1>
-      </div>
+       <div className="header">
+      <img src={earthview1} alt="grassy city view" />
+        <span className='image_text' >OUR INTERNS
+        </span>
+    </div>
       <div className="intern_content">
         <div className="intern_bio one">
           <div className="intern_pic">

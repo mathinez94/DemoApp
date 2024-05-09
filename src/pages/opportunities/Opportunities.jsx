@@ -1,10 +1,15 @@
 import React from 'react'
 import './Opportunities.css'
+import earthview1 from '../../images/earth view1.jpg'
 
 const Opportunities = () => {
   return (
     <div className='opportunities'>
-      <h1>Opportunities</h1>
+       <div className="header">
+      <img src={earthview1} alt="grassy city view" />
+        <span className='image_text' >OPPORTUNITIES
+        </span>
+    </div>
    </div>
   )
 }

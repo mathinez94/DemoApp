@@ -5,6 +5,7 @@ import axios from 'axios'
 import { useQuery } from '@tanstack/react-query'
 import { Link } from 'react-router-dom'
 import CircleLoader from "react-spinners/CircleLoader";
+import earthview1 from '../../images/earth view1.jpg'
 
 const News = () => {
   
@@ -35,9 +36,11 @@ const News = () => {
   }
   return (
     <div className="stories">
-      <div className="header_details">
-        {/* <Background /> */}
-        <h1 className='stories_hearder_text'>News/Updates</h1>
+      <div className="header">
+      <img src={earthview1} alt="grassy city view" />
+        <span className='image_text' >NEWS/UPDATES
+        </span>
+    </div>
         <div className="story_content">
           {
             data?.data.items.map(news => {
@@ -49,7 +52,6 @@ const News = () => {
             })
           }
         </div>
-      </div>
     </div>
   )
 }
