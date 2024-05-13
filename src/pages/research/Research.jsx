@@ -11,7 +11,7 @@ const Research = () => {
     <div className="research">
        <div className="header">
       <img src={cloudearthview} alt="grassy city view" />
-        <span className='image_text' >Research
+        <span className='image_text' >RESEARCH
         </span>
     </div>
 
