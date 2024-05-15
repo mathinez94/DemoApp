@@ -13,9 +13,11 @@ const Home = () => {
     <div className="home">
     <div className="homeHeader">
       <img src={cloudearthview} alt="grassy city view" />
-        <span className='image_text' >Understanding the Zonal Variability 
-        in CMIP6 Projections of Sahelian Precipitation
-        </span>
+      <div className="span">
+        <span >Understanding the Zonal Variability </span>
+        <span>in CMIP6 Projections of</span> 
+        <span>Sahelian Precipitation</span>
+      </div>
      </div>
     <div className="content">
       <div className="content_pic">
