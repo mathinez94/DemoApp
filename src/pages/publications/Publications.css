@@ -33,7 +33,7 @@
 .publication-content span{
     font-size: 20px;
     font-weight: 300;
-    color: orange;
+    color: navy;
 }
 .publication-content ul li{
     margin: 10px 0px;
@@ -42,6 +42,31 @@
 
                     /* MEDIA PAGE */
  @media only screen and (min-width: 360px) and (max-width: 750px){
+    .publications{
+        height: 100%;
+        width: 100%;
+        font-family: sans-serif;
+        margin-top: 5px;
+    }
+    /* HEADER CONTENT */
+.header{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.header img{
+    position: relative;
+    width: 100%;
+}
+.header span{
+    position: absolute;
+    color: #f9f9f9;
+    font-weight: 600;
+}
+/* hEADER CONTENT */
     .publication-content{
         height: 100%;
         width: 80%;
@@ -52,7 +77,7 @@
     .publication-content span{
         font-size: 1.5em;
         font-weight: 300;
-        color: orange;
+        color: navy;
     }
     .publication-content ul li{
         margin: 10px 0px;

@@ -104,8 +104,9 @@ img{
 
                   /* MEDIA PAGE */
  @media only screen and (min-width: 360px) and (max-width: 750px){
+
     .header{
-        height: 400px;
+        height: 300px;
         width: 100%;
         display: flex;
         align-items: center;
@@ -122,8 +123,9 @@ img{
     }
     /* hEADER CONTENT */
     .intern_content{
-        width: 100%;
-        margin-top: 10px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
     }
     .intern_bio{
         display: flex;
@@ -147,7 +149,7 @@ img{
         height: 300px;
         width: 100%;
         border: none;
-        border-radius: 10px;
+        border-radius: 4px;
         margin-top: 10px;
     }
     .bio{
@@ -156,7 +158,7 @@ img{
     }
     .bio .head{
         font-size: 2em;
-        color: orange;       
+        color: #0006;       
     }
     .bio p{
         text-align: left;

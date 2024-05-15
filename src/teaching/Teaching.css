@@ -47,6 +47,12 @@
 
                   /* MEDIA PAGE */
 @media only screen and (min-width: 360px) and (max-width: 750px){
+    .teaching{
+        height: 100%;
+        width: 100%;
+        font-family: sans-serif;
+        margin-top: 5px;
+    }
     .teaching-content span{
         font-size: 20px;
         font-weight: 300;
