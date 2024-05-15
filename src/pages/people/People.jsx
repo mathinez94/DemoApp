@@ -14,7 +14,7 @@ const People = () => {
       <img src={earthview1} alt="grassy city view" />
         <span className='image_text' >OUR INTERNS
         </span>
-    </div>
+      </div>
       <div className="intern_content">
         <div className="intern_bio one">
           <div className="intern_pic">

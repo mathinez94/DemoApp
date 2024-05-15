@@ -1,21 +1,22 @@
 import React from 'react'
 import './Home.css'
 import lightening from '../../images/lightning.jpg'
-import Background from '../background/Background'
 import { Link } from 'react-router-dom'
 import { FaInstagram, FaTelegramPlane, FaWhatsapp, FaFacebook } from 'react-icons/fa'
 import { FaXTwitter } from "react-icons/fa6";
-
+import cloudearthview from '../../images/cloud earth view.jpg'
 
 
 const Home = () => {
   return (
     <>
     <div className="home">
-      <div className="header_details">
-        <Background />
-        {/* <h1 className='home_hearder_text'>Sanhila Precipitation</h1> */}
-      </div>
+    <div className="homeHeader">
+      <img src={cloudearthview} alt="grassy city view" />
+        <span className='image_text' >Understanding the Zonal Variability 
+        in CMIP6 Projections of Sahelian Precipitation
+        </span>
+     </div>
     <div className="content">
       <div className="content_pic">
         <img src={lightening} alt="founder imag" className='img'/>
