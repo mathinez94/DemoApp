@@ -44,3 +44,31 @@
 .teaching-content p{
     margin: 10px 10px 5px 0px;
 }
+
+                  /* MEDIA PAGE */
+@media only screen and (min-width: 360px) and (max-width: 750px){
+    .teaching-content span{
+        font-size: 20px;
+        font-weight: 300;
+        color: orange;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+    .teaching-content p{
+        margin: 10px 10px 5px 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,7 +6,6 @@ import earthview2 from '../../images/earth view2.webp'
 import earthview3 from '../../images/earth view3.jpg'
 import cumulus from '../../images/cumulus.jpg'
 
-
 const People = () => {
   return (
     <div className="intern">

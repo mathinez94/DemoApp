@@ -82,6 +82,66 @@
     margin-top: 50px;
 }
 
+             /* MEDIA PAGE */
+ @media only screen and (min-width: 360px) and (max-width: 750px){
+    .research_content{
+        height: 100%;
+        width: 100%;
+    }
+    .researches{
+        height: 100%;
+        width: 100%;
+        margin-top: 50px;
+        border-bottom: 3px double #0006;
+    }
+    
+    .main{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .main_img{
+        flex: 1;
+        width: 100%;
+    }
+    .main_img img{
+        height: 300px;
+        width: 100%;
+    }
+    .main_text{
+        flex: 1;
+        text-align: left;
+        margin-left: 5px;
+        object-fit: contain;
+    }
+    .heading{
+        text-align: left;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        color: orange;
+    }
+    
+    .main_text p{
+        font-size: 1.1em;
+    }
+    
+    .footer{
+        width: 100%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+        background-color: #0006;
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+ }
+
 
 
 

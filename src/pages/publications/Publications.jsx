@@ -85,7 +85,7 @@ const Publications = () => {
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Officiis exercitationem enim accusamus quibusdam itaque quos, 
-            iste ex explicabo officia?
+            iste ex explicao officia?
           </li>
           <li>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 

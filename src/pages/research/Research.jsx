@@ -14,7 +14,6 @@ const Research = () => {
         <span className='image_text' >RESEARCH
         </span>
     </div>
-
       <div className="research_content">
         <div className="researches">
           <div className="main">

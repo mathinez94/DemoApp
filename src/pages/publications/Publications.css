@@ -38,3 +38,38 @@
 .publication-content ul li{
     margin: 10px 0px;
 }
+
+
+                    /* MEDIA PAGE */
+ @media only screen and (min-width: 360px) and (max-width: 750px){
+    .publication-content{
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: left;
+    }
+    .publication-content span{
+        font-size: 1.5em;
+        font-weight: 300;
+        color: orange;
+    }
+    .publication-content ul li{
+        margin: 10px 0px;
+    }
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

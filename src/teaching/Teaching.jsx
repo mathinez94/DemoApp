@@ -18,7 +18,7 @@ const Teaching = () => {
           <p>NMT 003: Climate Changes</p>
         </div>
         <div>
-          <span>Chicago metro uni</span>
+          <span>Chicago metro univ</span>
           <p>BTR 001: Climate Precipitation</p>
           <p>BTR 002: Weather Changes</p>
           <p>BTR 003: Climate Changes</p>
