@@ -1,12 +1,12 @@
 import React from 'react'
 import './Teaching.css'
-import earthview1 from '../../src/images/earth view1.jpg'
+import cloudearthview from '../../src/images/cloud earth view.jpg'
 
 const Teaching = () => {
   return (
     <div className='teaching'>
-       <div className="header">
-      <img src={earthview1} alt="grassy city view" />
+       <div className="Teachingheader">
+      <img src={cloudearthview} alt="grassy city view" />
         <span className='image_text' >TEACHING
         </span>
     </div>

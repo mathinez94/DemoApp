@@ -4,12 +4,12 @@ import './Research.css'
 import weather1 from '../../images/weather1.jpg'
 import weather2 from '../../images/weather2.jpg'
 import weather3 from '../../images/weather3.jpg'
-import cloudearthview from '../../images/earth view1.jpg'
+import cloudearthview from '../../images/cloud earth view.jpg'
 
 const Research = () => {
   return (
     <div className="research">
-       <div className="header">
+       <div className="Researchheader">
       <img src={cloudearthview} alt="grassy city view" />
         <span className='image_text' >RESEARCH
         </span>

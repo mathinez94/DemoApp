@@ -17,13 +17,13 @@
    justify-content: center;
     font-size: 30px;
     font-weight: 400;
-    font-family: cursive;
-    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px;
     color: orange;
     text-decoration: none;
-    
-    /* background-color: blue; */
-  
+    text-transform: uppercase;
+    box-shadow: 0px 0px 2px 2px; 
+    width: fit-content;
 }
 .navlink{
     padding: 20px;
@@ -46,20 +46,29 @@ nav a.active{
                               /* MEDIA SCREEN */
                                                 
 @media only screen and (min-width: 360px) and (max-width: 750px){
-
-     .logo{
+    .root{
+        background-color: white;
+        height: 80px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        font-family: sans-serif;
+      
+    }
+ .logo{
    display: flex;
    align-items: center;
    justify-content: center;
     font-size: 10px;
     font-weight: 200;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     padding: 7px;
     color: orange;
-    text-decoration: none;
-    
-    /* background-color: blue; */
-  
+    text-decoration: none; 
 }
 .navlink{
     padding: 7px;

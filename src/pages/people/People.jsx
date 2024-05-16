@@ -1,7 +1,7 @@
 import React from 'react'
 import'./People.css';
 // import Background from '../header/Background';
-import earthview1 from '../../images/earth view1.jpg'
+import cloudearthview from '../../images/cloud earth view.jpg'
 import earthview2 from '../../images/earth view2.webp'
 import earthview3 from '../../images/earth view3.jpg'
 import cumulus from '../../images/cumulus.jpg'
@@ -10,14 +10,14 @@ const People = () => {
   return (
     <div className="intern">
        <div className="header">
-      <img src={earthview1} alt="grassy city view" />
+      <img src={cloudearthview} alt="grassy city view" />
         <span className='image_text' >OUR INTERNS
         </span>
       </div>
       <div className="intern_content">
         <div className="intern_bio one">
           <div className="intern_pic">
-            <img src={earthview1} alt="" className="intern_img" />
+            <img src={cloudearthview} alt="" className="intern_img" />
           </div>
           <div className="bio">
             <p className='head'>Emecson Ghost</p>

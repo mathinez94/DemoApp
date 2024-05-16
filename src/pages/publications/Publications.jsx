@@ -1,15 +1,14 @@
 import React from 'react'
 import './Publications.css'
-import earthview1 from '../../images/earth view1.jpg'
+import cloudearthview from '../../images/cloud earth view.jpg'
 
 const Publications = () => {
   return (
     <div className='publications'>
-       <div className="header">
-      <img src={earthview1} alt="grassy city view" />
-        <span className='image_text' >PUBLICATIONS
-        </span>
-    </div>
+        <div className="publicationsheader">
+            <img src={cloudearthview} alt="grassy city view" />
+             <span className='image_text' >PUBLICATIONS</span>
+        </div>
       <div className="publication-content">
         <span>Completed Research</span>
         <ul>

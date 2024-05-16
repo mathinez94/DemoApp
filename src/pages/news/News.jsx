@@ -1,11 +1,10 @@
 import React from 'react'
 import './News.css'
-// import Background from '../header/Background'
 import axios from 'axios'
 import { useQuery } from '@tanstack/react-query'
 import { Link } from 'react-router-dom'
 import CircleLoader from "react-spinners/CircleLoader";
-import earthview1 from '../../images/earth view1.jpg'
+import cloudearthview from '../../images/cloud earth view.jpg'
 
 const News = () => {
   
@@ -37,7 +36,7 @@ const News = () => {
   return (
     <div className="stories">
       <div className="header">
-      <img src={earthview1} alt="grassy city view" />
+      <img src={cloudearthview} alt="grassy city view" />
         <span className='image_text' >NEWS/UPDATES
         </span>
     </div>
