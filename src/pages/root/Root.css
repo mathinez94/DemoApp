@@ -19,11 +19,11 @@
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
     padding: 2px;
-    color: orange;
+    color: navy;
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     box-shadow: 0px 0px 2px 2px; 
-    width: fit-content;
+    width: fit;
 }
 .navlink{
     padding: 20px;
@@ -36,16 +36,16 @@
   
 }
 .navlink:hover{
-    color: orange;
+    color: navy;
 }
 nav a.active{
-    color: orange;
+    color: navy;
     
 }
 
                               /* MEDIA SCREEN */
                                                 
-@media only screen and (min-width: 360px) and (max-width: 750px){
+@media only screen and (min-width: 480px) and (max-width: 769px){
     .root{
         background-color: white;
         height: 80px;

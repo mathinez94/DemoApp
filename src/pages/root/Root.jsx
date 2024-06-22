@@ -7,7 +7,7 @@ export const Root = () => {
     <>
     <div className='root' >
 
-      <Link  className="logo"><div>Demo Research</div></Link>
+      <Link  className="logo"><div>University of Nebraska</div></Link>
 
       <nav className="links">            
           <NavLink to='/' className='navlink'>Home</NavLink> 

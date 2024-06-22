@@ -37,7 +37,7 @@
 .teaching-content span{
     font-size: 20px;
     font-weight: 300;
-    color: orange;
+    color: navy;
     margin-top: 20px;
     text-transform: uppercase;
 }
@@ -46,7 +46,7 @@
 }
 
                   /* MEDIA PAGE */
-@media only screen and (min-width: 360px) and (max-width: 750px){
+@media only screen and (min-width: 480px) and (max-width: 769px){
     .teaching{
         height: 100%;
         width: 100%;
@@ -56,7 +56,7 @@
     .teaching-content span{
         font-size: 20px;
         font-weight: 300;
-        color: orange;
+        color: navy;
         margin-top: 20px;
         text-transform: uppercase;
     }

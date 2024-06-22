@@ -41,7 +41,7 @@
 
 
                     /* MEDIA PAGE */
- @media only screen and (min-width: 360px) and (max-width: 750px){
+ @media only screen and (min-width: 480px) and (max-width: 769px){
     .publications{
         height: 100%;
         width: 100%;
