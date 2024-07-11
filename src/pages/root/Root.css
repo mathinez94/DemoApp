@@ -42,22 +42,50 @@ nav a.active{
     color: navy;
     
 }
+.menu{
+    display: none;
+}
 
                               /* MEDIA SCREEN */
                                                 
-@media only screen and (min-width: 480px) and (max-width: 769px){
+@media only screen and (min-width: 390px) and (max-width: 769px){
     .root{
         background-color: white;
         height: 80px;
         width: 100%;
         display: grid;
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 50% 50%;
         align-items: center;
         position: fixed;
         top: 0;
         z-index: 1;
         font-family: sans-serif;
       
+    }
+    .links{
+        display: none;
+    }
+    .mobileView{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        overflow-y: hidden;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .links.ViewLink{
+        display: block;
+    }
+    .menu{
+        display: block;
+        margin-right: 10%;
+        cursor: pointer;
+        position: relative;
+        top: 0;
     }
  .logo{
    display: flex;
@@ -71,13 +99,19 @@ nav a.active{
     text-decoration: none; 
 }
 .navlink{
-    padding: 7px;
-    text-decoration: none;
-    color: #000;
-    font-size: 10px;
-   text-align: center;
-   margin-left: 10px;
-   padding: 4px;
-  
-}                               
+    display: block; 
+    font-size: 0.7em;
+    text-align: right;
+    margin-right: 10%;
+    position: relative;
+    right: 10px;
+    top: 0;
+} 
+.mobileHomeIcon{
+    font-size: 30px;
+} 
+.mobileCloseIcon{
+    font-size: larger;
+}
+
  }     
