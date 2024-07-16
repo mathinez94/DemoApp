@@ -48,7 +48,7 @@ nav a.active{
 
                               /* MEDIA SCREEN */
                                                 
-@media only screen and (min-width: 390px) and (max-width: 769px){
+@media  (max-width: 560px){
     .root{
         background-color: white;
         height: 80px;
