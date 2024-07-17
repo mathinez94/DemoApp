@@ -9,7 +9,6 @@
     top: 0;
     z-index: 1;
     font-family: sans-serif;
-  
 }
 .logo{
    display: flex;
@@ -17,23 +16,26 @@
    justify-content: center;
     font-size: 30px;
     font-weight: 400;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 2px;
+    font-family: sans-serif;
+    padding: 20px;
+    margin-left: 10px;
     color: navy;
     text-decoration: none;
-    /* text-transform: uppercase; */
     box-shadow: 0px 0px 2px 2px; 
-    width: fit;
+}
+.links{
+    padding: 27px;
+    margin: 0px 10px;
+    display: inline-block;
+    width: 100%;
 }
 .navlink{
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     color: #0005;
     font-size: 20px;
    text-align: center;
-   margin-left: 20px;
-   padding: 10px;
-  
+   margin-left: 10px; 
 }
 .navlink:hover{
     color: navy;
@@ -60,18 +62,15 @@ nav a.active{
         top: 0;
         z-index: 1;
         font-family: sans-serif;
-      
     }
     .links{
         display: none;
     }
     .mobileView{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
+        width: 50%;
+        padding: 20px;
         position: absolute;
-        top: 30px;
+        top: 0;
         right: 0;
         overflow-y: hidden;
         background-color: white;
@@ -91,17 +90,18 @@ nav a.active{
    display: flex;
    align-items: center;
    justify-content: center;
-    font-size: 10px;
+   width: 50%;
+   padding: 10px;
+    font-size: 15px;
     font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 7px;
-    color: orange;
+    font-family: sans-serif;
+    color: navy;
     text-decoration: none; 
 }
 .navlink{
     display: block; 
     font-size: 0.7em;
-    text-align: right;
+    text-align: left;
     margin-right: 10%;
     position: relative;
     right: 10px;
@@ -111,7 +111,7 @@ nav a.active{
     font-size: 30px;
 } 
 .mobileCloseIcon{
-    font-size: larger;
+    font-size: 30px;
 }
 
  }     
