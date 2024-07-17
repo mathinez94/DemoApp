@@ -15,7 +15,10 @@ export const Root = () => {
 
       <div className="mobileView">
         <div className="menu" onClick={() =>setMenu(!menu)}>{menu ? <FaTimesCircle className='mobileCloseIcon'/> : <FaBook className='mobileHomeIcon'/>}</div>
-        <nav className={`links ${menu ? 'ViewLink' : ""}`}>            
+        <nav 
+        className={`links ${menu ? 'ViewLink' : ""}`}
+        onClick={() =>setMenu(!menu)} 
+        >            
             <NavLink to='/' className='navlink'>Home</NavLink> 
             <NavLink to='/research' className='navlink'>Research</NavLink>
             <NavLink to='/Peoples' className='navlink'>People</NavLink>
