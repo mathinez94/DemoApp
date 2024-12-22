@@ -20,14 +20,14 @@ const Home = () => {
       </div>
       <div className="w-[80%] m-auto bg-white mt-32 flex items-center justify-center ">
       <div className=''>
-        <div className='flex items-end gap-10'>
+        <div className='flex  gap-10'>
           <Paper elevation={2} className="">
               <img src={Manie} alt="founder imag" className='min-w-[350px] min-h-[350px] rounded-lg'/>
           </Paper>
             <div className=''>
-              <span className='text-2xl font-extrabold font-serif'>Emmanuel Ogwuche Audu</span><br/>
-              <span className='text-xl font-extrabold font-serif'>Assistant Professor</span><br/>
-              <span className='text-xl font-extrabold font-serif'>Climate and Weather Variability</span><br/>
+              <span className='text-2xl font-semibold font-sans'>Emmanuel Ogwuche Audu</span><br/>
+              <span className='text-xl font-semibold font-sans'>Assistant Professor</span><br/>
+              <span className='text-xl font-semibold font-sans'>Climate and Weather Variability</span><br/>
               <Link to='mailto: auduemmanuel112@gmail.com' target='blank' className='Link'>auduemmanuel112@gmail.com</Link>
             </div>
         </div>
