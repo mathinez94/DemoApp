@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import { Root } from './pages/root/Root';
 import Home from './pages/home/Home';
 import { Route, createRoutesFromElements,createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -29,8 +29,8 @@ function App() {
   )
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="App">
-      <RouterProvider router={router}/> 
+      <div className="m-0 p-0 font-sans w-full h-[100%]">
+        <RouterProvider router={router}/> 
       </div>
     </QueryClientProvider>
   );
