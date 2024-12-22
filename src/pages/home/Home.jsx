@@ -2,8 +2,8 @@ import React from 'react'
 import './Home.css'
 import Manie from '../../images/manie_pic.jpg'
 import { Link } from 'react-router-dom'
-import { FaInstagram, FaTelegramPlane, FaWhatsapp, FaFacebook } from 'react-icons/fa'
-import { FaXTwitter } from "react-icons/fa6";
+// import { FaInstagram, FaTelegramPlane, FaWhatsapp, FaFacebook } from 'react-icons/fa'
+// import { FaXTwitter } from "react-icons/fa6";
 import cloudearthview from '../../images/cloud earth view.jpg'
 import { Paper, Typography } from '@mui/material'
 
