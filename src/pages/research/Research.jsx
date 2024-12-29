@@ -1,18 +1,24 @@
 import React from 'react'
-// import './Research.css'
-// import Background from '../header/Background'
 import weather1 from '../../images/weather1.jpg'
 import weather3 from '../../images/weather3.jpg'
 import cloudearthview from '../../images/cloud earth view.jpg'
 import { Paper, Typography } from '@mui/material'
+import { useTheme, useMediaQuery } from '@mui/material'
 
 const Research = () => {
+
+  const theme = useTheme();
+  const isMediaMatch = useMediaQuery(theme.breakpoints.down('md'))
   return (
     <div className="research" >
       <div className="w-full h-72 flex items-center justify-center">
         <img src={cloudearthview} alt="atmosphere view" className='w-full relative'/>
         <div className="z-10 absolute flex items-center justify-center">
-          <span className='font-serif text-5xl font-extrabold text-red-700 border-b-4 border-b-red-700'>RESEARCH </span>
+          <span className={isMediaMatch 
+          ? 'font-serif text-2xl font-extrabold text-red-700 border-b-4 border-b-red-700'
+          :'font-serif text-5xl font-extrabold text-red-700 border-b-4 border-b-red-700' }
+          >RESEARCH
+          </span>
         </div>
       </div>
       <div className="w-[80%] m-auto bg-white flex-col gap-10 mt-24 mb-24">
@@ -29,9 +35,9 @@ const Research = () => {
             <div className="">
               <Typography variant='h6' sx={{fontStyle: 'italic'}}>Lorem ipsum dolor sit amet consectetur.</Typography>
             </div>
-            <div className="flex gap-6 ">
+            <div className={ isMediaMatch ? "flex flex-col gap-6 " : "flex gap-6 "}>
               <Paper elevation={2} className=''>
-                <img src={weather1} alt="weather1" className='min-h-[300px] min-w-[450px] rounded-lg'/>
+                <img src={weather1} alt="weather1" className='max-h-[300px] max-w-[450px] rounded-lg'/>
               </Paper>
               <Typography variant='subtitle1' className=''>
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore laudantium minus architecto
@@ -52,9 +58,9 @@ const Research = () => {
             <div className="">
               <Typography variant='h6' sx={{fontStyle: 'italic'}}>Lorem ipsum dolor sit amet consectetur.</Typography>
             </div>
-            <div className="flex gap-6 ">
+            <div className={ isMediaMatch ? "flex flex-col gap-6 " : "flex gap-6 "}>
               <Paper elevation={2} className=''>
-                <img src={weather3} alt="weather1" className='min-h-[300px] min-w-[450px] rounded-lg'/>
+                <img src={weather3} alt="weather1" className='max-h-[300px] max-w-[450px] rounded-lg'/>
               </Paper>
               <Typography variant='subtitle1' className=''>
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore laudantium minus architecto
@@ -75,9 +81,9 @@ const Research = () => {
             <div className="">
               <Typography variant='h6' sx={{fontStyle: 'italic'}}>Lorem ipsum dolor sit amet consectetur.</Typography>
             </div>
-            <div className="flex gap-6 ">
+            <div className={ isMediaMatch ? "flex flex-col gap-6 " : "flex gap-6 "}>
               <Paper elevation={2} className=''>
-                <img src={weather1} alt="weather1" className='min-h-[300px] min-w-[450px] rounded-lg'/>
+                <img src={weather1} alt="weather1" className='max-h-[300px] max-w-[450px] rounded-lg'/>
               </Paper>
               <Typography variant='subtitle1' className=''>
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore laudantium minus architecto
@@ -98,9 +104,9 @@ const Research = () => {
             <div className="">
               <Typography variant='h6' sx={{fontStyle: 'italic'}}>Lorem ipsum dolor sit amet consectetur.</Typography>
             </div>
-            <div className="flex gap-6 ">
+            <div className={ isMediaMatch ? "flex flex-col gap-6 " : "flex gap-6 "}>
               <Paper elevation={2} className=''>
-                <img src={weather3} alt="weather1" className='min-h-[300px] min-w-[450px] rounded-lg'/>
+                <img src={weather3} alt="weather1" className='max-h-[300px] max-w-[450px] rounded-lg'/>
               </Paper>
               <Typography variant='subtitle1' className=''>
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore laudantium minus architecto
@@ -121,9 +127,9 @@ const Research = () => {
             <div className="">
               <Typography variant='h6' sx={{fontStyle: 'italic'}}>Lorem ipsum dolor sit amet consectetur.</Typography>
             </div>
-            <div className="flex gap-6 ">
+            <div className={ isMediaMatch ? "flex flex-col gap-6 " : "flex gap-6 "}>
               <Paper elevation={2} className=''>
-                <img src={weather1} alt="weather1" className='min-h-[300px] min-w-[450px] rounded-lg'/>
+                <img src={weather1} alt="weather1" className='max-h-[300px] max-w-[450px] rounded-lg'/>
               </Paper>
               <Typography variant='subtitle1' className=''>
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore laudantium minus architecto

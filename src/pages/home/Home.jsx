@@ -17,7 +17,7 @@ const Home = () => {
         <img src={cloudearthview} alt="atmosphere view" className='w-full relative'/>
         <div className="z-10 absolute flex items-center justify-center">
           <span className={isMediaMatch ?
-           'font-serif text-xl font-extrabold text-red-700 border-b-4 border-b-red-700'
+           'font-serif text-2xl font-extrabold text-red-700 border-b-4 border-b-red-700'
           :
           'font-serif text-5xl font-extrabold text-red-700 border-b-4 border-b-red-700'
           }
@@ -26,11 +26,13 @@ const Home = () => {
           </span>
         </div>
       </div>
-      <div className="w-[80%] m-auto bg-white mt-32 flex items-center justify-center ">
+      <div className={ isMediaMatch ? "w-[80%] m-auto bg-white mt-28 flex items-center justify-center " 
+      :
+        "w-[80%] m-auto bg-white mt-32 flex items-center justify-center "}>
       <div className=''>
         <div className={isMediaMatch ? 'flex flex-col gap-5' : 'flex  gap-10'}>
           <Paper elevation={2} className="">
-              <img src={Manie} alt="founder imag" className='min-w-[350px] min-h-[350px] rounded-lg'/>
+              <img src={Manie} alt="founder imag" className='max-w-[350px] max-h-[350px] rounded-lg'/>
           </Paper>
             <div className=''>
               <span className='text-2xl font-semibold font-sans'>Emmanuel Ogwuche Audu</span><br/>

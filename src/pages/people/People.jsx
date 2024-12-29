@@ -4,14 +4,22 @@ import'./People.css';
 import cloudearthview from '../../images/cloud earth view.jpg'
 import MediaPlatforms1 from "../../images/manie_pic.jpg";
 import { Paper, Typography } from '@mui/material';
+import { useTheme, useMediaQuery } from '@mui/material'
 
 const People = () => {
+
+  const theme = useTheme();
+  const isMediaMatch = useMediaQuery(theme.breakpoints.down('md'))
   return (
     <div className="intern">
         <div className="w-full h-72 flex items-center justify-center">
           <img src={cloudearthview} alt="atmosphere view" className='w-full relative'/>
           <div className="z-10 absolute flex items-center justify-center">
-            <span className='font-serif text-5xl font-extrabold text-red-700 border-b-4 border-b-red-700'>TEAM  </span>
+            <span className={isMediaMatch 
+          ? 'font-serif text-2xl font-extrabold text-red-700 border-b-4 border-b-red-700'
+          :'font-serif text-5xl font-extrabold text-red-700 border-b-4 border-b-red-700' }
+          >TEAM  
+          </span>
           </div>
         </div>
       <div className="px-[3%] bg-white flex-col gap-10 mt-24 mb-24intern_content">
@@ -27,16 +35,18 @@ const People = () => {
       </div>
       <div className={ "px-[3%] mt-12 mb -32"}>
         <div className="mt-12">
-          <div className={ "grid grid-cols-3 gap-[40px]"}>
+          <div className={ isMediaMatch ? 'grid grid-cols-1 gap-16' : "grid grid-cols-3 gap-[40px]"}>
             <Paper
               elevation={2}
               className={
+                isMediaMatch ? "relative hover:cursor-pointer transition-transform"
+                 :
                 "relative hover:cursor-pointer transition-transform transform hover:translate-x-4 hover:translate-y-4"
               }
               // style={{ overflow: "hidden" }}
             >
               <div className="relative">
-                <img src={MediaPlatforms1} alt="MediaPlatforms1" className="min-h-[350px] min-w-[350px]" />
+                <img src={MediaPlatforms1} alt="MediaPlatforms1" className="max-h-[350px] max-w-[350px]" />
                 <div className="absolute inset-0 flex items-start justify-center bg-[#3368c6]/80 bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-4 py-8">
                   <Typography className="text-white font-bold text-base">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -64,12 +74,14 @@ const People = () => {
             <Paper
               elevation={2}
               className={
+                isMediaMatch ? "relative hover:cursor-pointer transition-transform"
+                 :
                 "relative hover:cursor-pointer transition-transform transform hover:translate-x-4 hover:translate-y-4"
               }
               // style={{ overflow: "hidden" }}
             >
               <div className="relative">
-                <img src={MediaPlatforms1} alt="MediaPlatforms1" className="min-h-[350px] min-w-[350px]" />
+                <img src={MediaPlatforms1} alt="MediaPlatforms1" className="max-h-[350px] max-w-[350px]" />
                 <div className="absolute inset-0 flex items-start justify-center bg-[#3368c6]/80 bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-4 py-8">
                   <Typography className="text-white font-bold text-base">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -97,12 +109,14 @@ const People = () => {
             <Paper
               elevation={2}
               className={
+                isMediaMatch ? "relative hover:cursor-pointer transition-transform"
+                 :
                 "relative hover:cursor-pointer transition-transform transform hover:translate-x-4 hover:translate-y-4"
               }
               // style={{ overflow: "hidden" }}
             >
               <div className="relative">
-                <img src={MediaPlatforms1} alt="MediaPlatforms1" className="min-h-[350px] min-w-[350px]"/>
+                <img src={MediaPlatforms1} alt="MediaPlatforms1" className="max-h-[350px] max-w-[350px]"/>
                 <div className="absolute inset-0 flex items-start justify-center bg-[#3368c6]/80 bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 p-4 py-8">
                   <Typography className="text-white font-bold text-base">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

@@ -6,8 +6,13 @@ import './News.css'
 // import CircleLoader from "react-spinners/CircleLoader";
 import cloudearthview from '../../images/cloud earth view.jpg'
 import { Typography } from '@mui/material'
+import { useTheme, useMediaQuery } from '@mui/material'
 
 const News = () => {
+
+  const theme = useTheme();
+  const isMediaMatch = useMediaQuery(theme.breakpoints.down('md'))
+ 
   
   // const options = {
   //   method: 'GET',
@@ -39,7 +44,9 @@ const News = () => {
      <div className="w-full h-72 flex items-center justify-center">
         <img src={cloudearthview} alt="atmosphere view" className='w-full relative'/>
         <div className="z-10 absolute flex items-center justify-center">
-          <span className='font-serif text-5xl font-extrabold text-red-700 border-b-4 border-b-red-700'>NEWS/UPDATES </span>
+          <span className={isMediaMatch 
+          ? 'font-serif text-2xl font-extrabold text-red-700 border-b-4 border-b-red-700'
+          :'font-serif text-5xl font-extrabold text-red-700 border-b-4 border-b-red-700' }>NEWS/UPDATES </span>
         </div>
       </div>
         {/* <div className="story_content">
