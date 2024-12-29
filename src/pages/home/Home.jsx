@@ -2,25 +2,33 @@ import React from 'react'
 import './Home.css'
 import Manie from '../../images/manie_pic.jpg'
 import { Link } from 'react-router-dom'
-// import { FaInstagram, FaTelegramPlane, FaWhatsapp, FaFacebook } from 'react-icons/fa'
-// import { FaXTwitter } from "react-icons/fa6";
 import cloudearthview from '../../images/cloud earth view.jpg'
 import { Paper, Typography } from '@mui/material'
+import { useTheme, useMediaQuery } from '@mui/material'
 
 
 const Home = () => {
+  const theme = useTheme();
+  const isMediaMatch = useMediaQuery(theme.breakpoints.down('md'))
   return (
     <>
     <div className="w-full h-[100%] font-serif ">
       <div className="w-full h-72 flex items-center justify-center">
         <img src={cloudearthview} alt="atmosphere view" className='w-full relative'/>
         <div className="z-10 absolute flex items-center justify-center">
-          <span className='font-serif text-5xl font-extrabold text-red-700 border-b-4 border-b-red-700'>DIXON RESEARCH GROUP </span>
+          <span className={isMediaMatch ?
+           'font-serif text-xl font-extrabold text-red-700 border-b-4 border-b-red-700'
+          :
+          'font-serif text-5xl font-extrabold text-red-700 border-b-4 border-b-red-700'
+          }
+          >
+            DIXON RESEARCH GROUP 
+          </span>
         </div>
       </div>
       <div className="w-[80%] m-auto bg-white mt-32 flex items-center justify-center ">
       <div className=''>
-        <div className='flex  gap-10'>
+        <div className={isMediaMatch ? 'flex flex-col gap-5' : 'flex  gap-10'}>
           <Paper elevation={2} className="">
               <img src={Manie} alt="founder imag" className='min-w-[350px] min-h-[350px] rounded-lg'/>
           </Paper>

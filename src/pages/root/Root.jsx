@@ -1,34 +1,40 @@
 import React from 'react'
 import '../root/Root.css'
-import {  Link, NavLink, Outlet } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 import { Paper } from '@mui/material';
+import Menu from '../../components/Menu';
+import { useTheme, useMediaQuery } from '@mui/material'
+import DrawerMenu from '../../components/DrawerMenu';
 import logo from '../../images/Dixon research group.png'
+
 
 export const Root = () => {
 
+  const theme = useTheme();
+    const isMediaMatch = useMediaQuery(theme.breakpoints.down('md'))
  
   return (
     <>
     <div className='m-0 p-0 w-full fixed top-0 z-40' >
       <Paper elevation={2} className=' py-4' >
-        <div className='w-full flex items-center justify-center h-20'>
-            <div className=' flex-1'>
-              <Link  className=" flex items-center justify-center ">
-                <img src={logo} alt="research group logo"  className='h-28 w-36 '/>
+      
+       { 
+        isMediaMatch ? 
+        <div className='w-[100%] flex gap-2 items-center justify-center'>
+          <div className='w-[20%] h-[100%] items-center justify-center '>
+            <DrawerMenu /> 
+          </div>
+          <div className='w-[80%] items-center justify-center '>
+              <Link  className=" flex items-center">
+                <img src={logo} alt="research group logo"  className='h-28 w-52 '/>
               </Link>
             </div>
-            <div className="flex-2 py-3 font-semibold font-serif">
-                <nav>            
-                    <NavLink to='/' className='navlink'>Home</NavLink> 
-                    <NavLink to='/research' className='navlink'>Research</NavLink>
-                    <NavLink to='/Peoples' className='navlink'>People</NavLink>
-                    <NavLink to='/Publications' className='navlink'>Publications</NavLink> 
-                    <NavLink to='/Teaching' className='navlink'>Teaching</NavLink> 
-                    <NavLink to='/Opportunities' className='navlink'>Opportunities</NavLink>        
-                    <NavLink to='/News' className='navlink'>News</NavLink>
-              </nav>
-          </div>
         </div>
+        :
+        <div>
+           <Menu />
+        </div>
+        }
       </Paper>
     </div>
     <div className='mt-44'>
